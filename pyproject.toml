@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "whisper-benchmark"
+version = "0.1.0"
+description = "Reproducing the Faster Whisper benchmark: https://github.com/SYSTRAN/faster-whisper?tab=readme-ov-file#large-v2-model-on-gpu"
+authors = ["borgholt <lasseborgholt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faster-whisper = "^0.10.0"
+rich = "^13.7.1"
+pydub = "^0.25.1"
+numpy = "^1.26.4"
+pytube = "^15.0.0"
+tqdm = "^4.66.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
